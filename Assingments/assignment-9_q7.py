@@ -1,0 +1,5 @@
+print("given set is a subset of another given set or not .")
+s1=set(eval(input("enter the first set - ")))
+s2=set(eval(input("enter the second set - ")))
+ans=s1.issuperset(s2)
+print("ans is - ",ans)  
